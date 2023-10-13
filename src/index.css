@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+.container {
+  margin: 0 auto;
+  min-width: 400px;
+  max-width: 550px;
+  min-height: 719px;
+  background-color: #1f2937;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #3a69d2;
+  height: 190px;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 0.5em;
+  font-weight: 400;
+}
+
+.invoice-details-container {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.add-a-task-btn-container {
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.add-task-btn {
+  background-color: #d1d4f4;
+  border: none;
+  color: #4a4e74;
+  width: 143px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.add-a-task-btn-container > div:not(:last-child) > .add-task-btn {
+  margin-right: 1em;
+}
+
+.total-top-line,
+.total-bottom-line {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: #d5d4d8;
+}
+
+.ordered-tasks-container {
+  width: 90%;
+}
+
+.ordered-tasks-container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ordered-tasks-container > div > p > span {
+  color: #918e9b;
+}
+
+.ordered-tasks-container > div > p:first-child {
+  font-size: 1.25rem;
+}
+
+.ordered-tasks-container > div > p:first-child > span {
+  font-size: 0.5rem;
+  color: #d5d4d8;
+}
+
+.ordered-tasks-container > div > p:last-child {
+  font-size: 1.5rem;
+}
+
+.total-amount-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.total-amount-container > p {
+  margin-top: 0;
+}
+
+.total-amount-container > p:first-child {
+  font-size: 0.75rem;
+}
+
+.total-amount-container > p:last-child {
+  font-size: 2.25rem;
+  margin-left: auto;
+}
+
+.divider-line {
+  margin-top: 2em;
+  border-bottom: 1px solid #c3c6db;
+  width: 90%;
+}
+
+.send-invoice-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  width: 90%;
+  background-color: #3a69d2;
+  color: #ffffff;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 700;
+}
+
+.send-invoice-btn-img {
+  margin-right: 0.5em;
+}
